@@ -1,0 +1,305 @@
+.section-five{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 55px 0;
+    height: 1000px;
+    .left{
+        box-sizing: border-box;
+        width: 30%;
+        height: 70%;
+        background: url('../assets/img/dylann-hendricks-mtSq1ekJPdg-unsplash\ 1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .right{
+        width: 70%;
+        height: 60%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .right-content{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            padding: 45px;
+            width: 90%;
+            height: 95%;
+            background: rgba(255, 255, 255, 0.08);
+            display: flex;
+            justify-content: flex-start;
+            .inside{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 65%;
+                h1{
+                    color: #fff;
+                }
+                p{
+                    color: #fff;
+                    font-size: 25px;
+                    padding: 35px 0;
+                }
+                >button{
+                    align-self: center;
+                    width: 120px;
+                    height: 50px;
+                    border: none;
+                    padding: 0;
+                    border-radius: 25px 0px;
+                    margin-top: 35px;
+                    color: #1A3864;
+                    transition: all .4s ease;
+                    >img{
+                        width: 15px;
+                        height: 15px;
+                    }
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                        transform: translateX(3px);
+                    }
+                } 
+            }
+        }
+    }
+}
+
+@media(max-width:1500px){
+    .section-five{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 55px 0;
+        height: 1000px;
+        .left{
+            box-sizing: border-box;
+            width: 35% !important;
+            height: 70%;
+            background: url('../assets/img/dylann-hendricks-mtSq1ekJPdg-unsplash\ 1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .right{
+            width: 65% !important;
+            height: 60%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            .right-content{
+                padding: 45px;
+                width: 90%;
+                height: 95%;
+                background: rgba(255, 255, 255, 0.08);
+                display: flex;
+                align-items: center;
+                .inside{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 85% !important;
+                    height: 80%;
+                    h1{
+                        font-size: 35px;
+                        color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 22px !important;                    }
+                    >button{
+                        align-self: center;
+                        width: 120px;
+                        height: 50px;
+                        border: none;
+                        border-radius: 25px 0px;
+                        >img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                        margin-top: 35px;
+                    } 
+                }
+            }
+        }
+    }  
+}
+@media(max-width:1200px){
+    .section-five{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 55px 0;
+        height: 1000px;
+        .left{
+            box-sizing: border-box;
+            width: 40% !important;
+            height: 70%;
+            background: url('../assets/img/dylann-hendricks-mtSq1ekJPdg-unsplash\ 1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .right{
+            width: 60% !important;
+            height: 60%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            .right-content{
+                padding: 45px;
+                width: 90%;
+                height: 95%;
+                background: rgba(255, 255, 255, 0.08);
+                display: flex;
+                align-items: center;
+                .inside{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 90% !important;
+                    height: 80%;
+                    h1{
+                        font-size: 30px;
+                        color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px !important;                    }
+                    >button{
+                        align-self: center;
+                        width: 120px !important;
+                        height: 50px;
+                        border: none;
+                        border-radius: 25px 0px;
+                        >img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                        margin-top: 35px;
+                    } 
+                }
+            }
+        }
+    }  
+}
+@media(max-width:992px){
+    .section-five{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 55px 0;
+        height: 1000px;
+        .left{
+            box-sizing: border-box;
+            width: 100% !important;
+            height: 70%;
+            background: url('../assets/img/dylann-hendricks-mtSq1ekJPdg-unsplash\ 1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .right{
+            width: 100% !important;
+            height: 70% !important;
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            .right-content{
+                padding: 45px;
+                width: 100% !important;
+                height: 95%;
+                background: rgba(255, 255, 255, 0.08);
+                display: flex;
+                align-items: center;
+                .inside{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 90% !important;
+                    height: 80%;
+                    h1{
+                        font-size: 30px;
+                        color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 20px !important;                    }
+                    >button{
+                        align-self: center;
+                        width: 140px !important;
+                        height: 50px !important;
+                        border: none;
+                        border-radius: 25px 0px;
+                        >img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                        margin-top: 35px;
+                    } 
+                }
+            }
+        }
+    }  
+}
+@media(max-width:600px){
+    .section-five{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 55px 0;
+        height: 1000px;
+        .left{
+            box-sizing: border-box;
+            width: 100% !important;
+            height: 70%;
+            background: url('../assets/img/dylann-hendricks-mtSq1ekJPdg-unsplash\ 1.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .right{
+            width: 100% !important;
+            height: 70% !important;
+            display: flex;
+            justify-content: center !important;
+            align-items: center;
+            .right-content{
+                padding: 45px;
+                width: 100% !important;
+                height: 95%;
+                background: rgba(255, 255, 255, 0.08);
+                display: flex;
+                align-items: center;
+                .inside{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 90% !important;
+                    height: 90%;
+                    h1{
+                        font-size: 30px;
+                        color: #fff;
+                    }
+                    p{
+                        color: #fff;
+                        font-size: 16px !important;                    }
+                    >button{
+                        align-self: center;
+                        width: 140px !important;
+                        height: 50px !important;
+                        border: none;
+                        border-radius: 25px 0px;
+                        >img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                        margin-top: 35px;
+                    } 
+                }
+            }
+        }
+    }  
+}

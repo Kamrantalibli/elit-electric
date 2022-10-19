@@ -1,0 +1,101 @@
+.section-two{
+    margin-bottom: 55px;
+    h1{
+        font-family: 'Tajawal';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 225px;
+        color: #fff;
+    }
+    .blocks{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .block-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            width: 400px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.11);
+            border-radius: 150px 0px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            transition: all .4s ease;
+            &:hover{
+                transform: translateY(-5px);
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+            .icon-1{
+                    width: 80px;
+                    height: 80px;
+                    background: url('../assets/img/emojione_electric-plug.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    margin: 10px 0 25px;
+            }
+            .icon-2{
+                    width: 80px;
+                    height: 80px;
+                    background: url('../assets/img/emojine-electric.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin: 10px 0 25px;
+            }
+            .icon-3{
+                    width: 80px;
+                    height: 80px;
+                    background: url('../assets/img/emojine_electric_people.png');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    margin: 10px 0 25px;
+            }
+            p{
+                padding: 0 20px;
+                color: #fff;
+            }
+            button{
+                width: 80px;
+                height: 40px;
+                border: none;
+                padding: 0;
+                border-radius: 25px 0px;
+                margin-bottom: 25px;
+                color: #1A3864;
+                    transition: all .4s ease;
+                    >img{
+                        width: 15px;
+                        height: 15px;
+                    }
+                    &:hover{
+                        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                        transform: translateY(-3px);
+                    }
+            }
+
+        }
+    }
+}
+
+@media(max-width:992px){
+    .section-two{
+        margin-bottom: 55px;
+        h1{
+            font-size: 60px !important;
+            line-height: 200px !important;
+            color: #fff;
+        }
+    }
+}
+@media(max-width:768px){
+    .section-two{
+        margin-bottom: 55px;
+        h1{
+            font-size: 50px !important;
+            line-height: 200px !important;
+            color: #fff;
+        }
+    }
+}

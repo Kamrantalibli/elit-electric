@@ -1,0 +1,452 @@
+header{
+    width: 100%;
+    z-index: 1;
+    background-image: url('../assets/img/Rectangle\ 40.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 335px;
+    .head{
+        width: 96%;
+        margin: 0 auto;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            height: 60px;
+            width: 279px;
+        }
+        .menu{
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            width: 600px;
+            >li{
+                font-style: normal;
+                font-weight: 700;
+                position: relative;
+                >a{
+                    color: #1A3864;
+                    display: block;
+                    width: 100%;
+                    text-decoration: none;
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 0;
+                    height: 2px;
+                    background-color: #1A3864;
+                    transition: all .4s;
+                }
+                &:hover{
+                    &::before{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .contact{
+            width: 150px;
+            height: 50px;
+            color: #fff;
+            font-style: normal;
+            font-size: 18px;
+            font-weight: 700;
+            letter-spacing: .7px;
+            background-color: #1A3864;
+            border: none;
+            border-radius: 5px;
+            &:hover{
+                background-color: #2c5798;
+            }
+        }
+        .menu-bar{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            padding: 13px;
+            background-color: #1A3864;
+            border-radius: 5px;
+            display: none;
+            >i{
+                color: #fff;
+                font-size: 23px;
+            }
+            &:hover{
+                background-color: #2c5798;
+            }
+        }
+    }
+    .offcanvas{
+        height: 400px !important;
+        background-color: #7da4de;
+        .offcanvas-header{
+            width: 97%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                .logo-canvas{
+                    height: 60px;
+                    width: 200px;
+                }
+            }
+        }
+        .offcanvas-body{
+            overflow-y: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .menu-canvas{
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                height: 200px;
+                >li{
+                    font-style: normal;
+                    font-weight: 700;
+                    position: relative;
+                    >a{
+                        color: #fff;
+                        display: block;
+                        width: 100%;
+                        text-decoration: none;
+                    }
+                    &::before{
+                        content: "";
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        width: 0;
+                        height: 2px;
+                        background-color: #fff;
+                        transition: all .4s;
+                    }
+                    &:hover{
+                        &::before{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .contact-canvas{
+                width: 150px;
+                height: 50px;
+                color: #fff;
+                padding: 0;
+                font-style: normal;
+                font-size: 18px;
+                font-weight: 700;
+                letter-spacing: .7px;
+                background-color: #2b62b4;
+                border: none;
+                border-radius: 5px;
+                margin-top: 20px;
+                &:hover{
+                    background-color: #2c5798;
+                }
+            }    
+        }
+    }
+
+}
+
+@media(max-width:1200px){
+    header{
+        width: 100%;
+        z-index: 1;
+        background-image: url('../assets/img/Rectangle\ 40.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+        .head{
+            width: 85%;
+            margin: 0 auto;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                height: 46px;
+                width: 230px;
+            }
+            .menu{
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 450px;
+                >li{
+                    font-style: normal;
+                    font-weight: 700;
+                    >a{
+                        color: #1A3864;
+                        display: block;
+                        width: 100%;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .contact{
+                width: 130px;
+                height: 45px;
+                margin-left: 10px;
+                color: #fff;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: .7px;
+                background-color: #1A3864;
+                border-radius: 5px;
+            }
+            .menu-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                padding: 13px;
+                background: rgba(0, 0, 0, 0.30);
+                border-radius: 5px;
+                display: none;
+                >i{
+                    color: #fff;
+                    font-size: 23px;
+                }
+                &:hover{
+                    background-color: #2c5798;
+                }
+            }
+        }
+    
+    }   
+}
+@media(max-width:992px){
+    header{
+        width: 100%;
+        z-index: 1;
+        background-image: url('../assets/img/Rectangle\ 40.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+        .head{
+            width: 85%;
+            margin: 0 auto;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .logo{
+                height: 46px;
+                width: 230px;
+            }
+            .menu{
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 450px;
+                display: none;
+                >li{
+                    font-style: normal;
+                    font-weight: 700;
+                    >a{
+                        color: #1A3864;
+                        display: block;
+                        width: 100%;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .contact{
+                width: 130px;
+                height: 45px;
+                margin-left: 10px;
+                color: #fff;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: .7px;
+                background-color: #1A3864;
+                border-radius: 5px;
+                display: none;
+            }
+            .menu-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                padding: 7px;
+                background: rgba(0, 0, 0, 0.30);
+                border-radius: 3px;
+                display: block;
+                >i{
+                    color: #fff;
+                    font-size: 23px;
+                }
+                &:hover{
+                    background-color: #2c5798;
+                }
+            }
+        }
+    
+    }   
+}
+@media(max-width:768px){
+    header{
+        width: 100%;
+        z-index: 1;
+        background-image: url('../assets/img/Rectangle\ 40.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 150px;
+        .head{
+            width: 85%;
+            margin: auto auto;
+            height: 50px !important;
+            display: flex;
+            justify-content: center;
+            .logo{
+                height: 46px;
+                width: 230px;
+            }
+            .menu{
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 450px;
+                display: none;
+                >li{
+                    font-style: normal;
+                    font-weight: 700;
+                    >a{
+                        color: #1A3864;
+                        display: block;
+                        width: 100%;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .contact{
+                width: 130px;
+                height: 45px;
+                margin-left: 10px;
+                color: #fff;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: .7px;
+                background-color: #1A3864;
+                border-radius: 5px;
+                display: none;
+            }
+            .menu-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                padding: 7px;
+                background: rgba(0, 0, 0, 0.30);
+                border-radius: 3px;
+                display: block;
+                >i{
+                    color: #fff;
+                    font-size: 23px;
+                }
+            }
+        }
+    
+    }   
+}
+@media(max-width:576px){
+    header{
+        width: 100%;
+        z-index: 1;
+        background-image: url('../assets/img/Rectangle\ 40.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 150px;
+        .head{
+            width: 85%;
+            margin: auto auto;
+            height: 35px !important;
+            display: flex;
+            justify-content: center;
+            .logo{
+                height: 46px;
+                width: 230px;
+            }
+            .menu{
+                box-sizing: border-box;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                width: 450px;
+                display: none;
+                >li{
+                    font-style: normal;
+                    font-weight: 700;
+                    >a{
+                        color: #1A3864;
+                        display: block;
+                        width: 100%;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .contact{
+                width: 130px;
+                height: 45px;
+                margin-left: 10px;
+                color: #fff;
+                font-style: normal;
+                font-size: 16px;
+                font-weight: 700;
+                letter-spacing: .7px;
+                background-color: #1A3864;
+                border-radius: 5px;
+                display: none;
+            }
+            .menu-bar{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                margin-top: 4px;
+                padding: 7px;
+                background: rgba(0, 0, 0, 0.30);
+                border-radius: 3px;
+                display: block;
+                >i{
+                    color: #fff;
+                    font-size: 18px;
+                }
+            }
+        }
+    
+    } 
+}
